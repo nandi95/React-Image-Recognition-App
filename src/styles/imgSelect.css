@@ -1,0 +1,161 @@
+.PictureSelectionWrapper{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+.flexBox{
+    display: flex;
+    flex-flow: row wrap;
+
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+
+    position: fixed;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+}
+.flexItem{
+    position: relative;
+    margin: 1.5%;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-image: url("https://images.pexels.com/photos/994883/pexels-photo-994883.jpeg");
+}
+
+.selectPic{
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms ease;
+}
+.selectPic:hover{
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 250ms ease;
+}
+/*=======================
+Button Styles
+=========================*/
+.button1{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: .1em solid white;
+    margin: 2em ;
+    border-radius: .12em;
+    box-sizing: border-box;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.2s;
+}
+.button1:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, .8);
+}
+@media all and(max-width: 30em){
+    .button1{
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+/*=======================
+Fair
+=========================*/
+.fair{
+    position: absolute;
+    top: 5%;
+    right: 0;
+
+    padding: 1% 3%;
+    text-align: center;
+
+    color: #e4e4e4;
+    font-weight: 600;
+}
+.Correct{
+    background-color: rgba(16, 101, 0, 0.5);
+}
+.Wrong{
+    background-color: rgba(108, 1, 9, 0.5);
+}
+/*=======================
+Close Button
+=========================*/
+.close {
+    position: fixed;
+    z-index: 5;
+    right: 32px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    background-color: rgba(255,255,255, 0.8);
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+/*=======================
+Media Queries
+=========================*/
+@media only screen and (max-width: 1000px){
+    /*3*2*/
+    .flexItem{
+        height: 40%;
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 450px){
+    /*6*1*/
+    .flexItem{
+        height: 50%;
+        width: 80%;
+    }
+}
+
+
+@media only screen and (min-width: 1000px){
+    /*2*3*/
+    .flexItem{
+        height: 40%;
+        width: 30%;
+    }
+}
+
+
+
+
+

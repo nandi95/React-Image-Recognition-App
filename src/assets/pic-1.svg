@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="210mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29700 21000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:#A3CAE7}
+    .fil3 {fill:#A6C7C9}
+    .fil4 {fill:#C2C9AD}
+    .fil5 {fill:#D8DEB4}
+    .fil6 {fill:#F0F5C2}
+    .fil7 {fill:white}
+    .fil1 {fill:url(#id0)}
+    .fil0 {fill:url(#id1)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="13017.27" y1="11139.46" x2="11659" y2="6520.98">
+   <stop offset="0" style="stop-opacity:1; stop-color:#89AB72"/>
+   <stop offset="0.760784" style="stop-opacity:1; stop-color:#99B089"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#A9B5A1"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="6153.42" y1="10987.78" x2="7137.6" y2="5791.89">
+   <stop offset="0" style="stop-opacity:1; stop-color:#B4BF69"/>
+   <stop offset="0.929412" style="stop-opacity:1; stop-color:#BEC58E"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#C9CCB3"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M10772.58 8332.15c-2726.64,-2196.29 -5478.01,-2955.37 -8254.13,-2277.11l0 4909.88 5336.82 0c312.37,-868.94 1284.72,-1746.49 2917.31,-2632.77z"/>
+  <path class="fil1" d="M10772.58 8332.15c-1632.59,886.28 -2604.94,1763.83 -2917.31,2632.77l8965.73 0 0 -4269.4c-2378.08,237.74 -4394.18,783.28 -6048.42,1636.63z"/>
+  <path class="fil2" d="M16821.01 149.02l-14302.56 0 0 5906.03c2776.12,-678.27 5527.49,80.81 8254.13,2277.1 1654.24,-853.34 3670.33,-1398.89 6048.43,-1636.63l0 -6546.5z"/>
+  <circle class="fil3" cx="5835.48" cy="2919.22" r="1924.76"/>
+  <circle class="fil4" cx="5835.48" cy="2919.22" r="1736.65"/>
+  <circle class="fil5" cx="5835.48" cy="2919.22" r="1525.9"/>
+  <circle class="fil6" cx="5835.49" cy="2919.23" r="1343.22"/>
+  <circle class="fil7" cx="5835.49" cy="2919.23" r="1172.6"/>
+ </g>
+</svg>
