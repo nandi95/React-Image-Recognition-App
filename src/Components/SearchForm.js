@@ -33,6 +33,7 @@ const Searchform = (props) => {
                 }} className="correct">Correct
                 </button>
             </div>
+            <a href="https://github.com/nandi95/React-Image-Recognition-App" class="git-link">Github repo</a>
         </div>
     );
 };
